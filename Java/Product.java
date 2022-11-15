@@ -5,5 +5,5 @@ public class Product {
     String Status;
     Double Price;
     Integer Stock;
-    String PayMethod;
+    Integer PayMethodId;
 }
