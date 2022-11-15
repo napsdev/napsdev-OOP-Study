@@ -1,6 +1,7 @@
+import java.util.ArrayList;
+
 public class ShoppingCart {
     // Attributes
     Integer Id;
-    // Array
-    String ProductList;
+    ArrayList<Integer> ProductList = new ArrayList<Integer>();
 }
