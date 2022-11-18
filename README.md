@@ -1,2 +1,4 @@
-# POO-Study
-Practical class about OPP, aplicate for the E-Commerce  "Basic (mercado libre)".
+# OOP-Study
+Practical class about OOP, aplicate for the E-Commerce "Basic (mercado libre)".
+## UML Diagram
+![UML Diagram](UML-OOP.png)
