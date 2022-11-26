@@ -1,11 +1,18 @@
-function User() {
-    // Attributes
-    this.Id;
-    this.Document;
-    this.Type;
-    this.Name;
-    this.Password;
-    this.Email;
-    this.Address;
-
+class User {
+    constructor(Name, Document, Email) {
+        // Attributes
+        this.Id;
+        this.Document = Document;
+        this.Type;
+        this.Name = Name;
+        this.Password;
+        this.Email = Email;
+        this.Address;
+    }
+    //Methods
+    printDataUser = () => {
+        console.log(this.Name);
+    }
 }
+
+
