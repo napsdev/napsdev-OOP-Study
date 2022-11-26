@@ -8,4 +8,9 @@ public class User {
     String Email;
     String Address;
 
+    // Method
+    void printname() {
+        System.out.println("Name: " + Name);
+    }
+
 }
