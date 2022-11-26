@@ -8,7 +8,15 @@ public class User {
     String Email;
     String Address;
 
-    // Method
+    // Methods
+
+    // Construct method whit parameters requerid
+    public User(String Name, String Document, String Email) {
+        this.Name = Name;
+        this.Document = Document;
+        this.Email = Email;
+    }
+
     void printname() {
         System.out.println("Name: " + Name);
     }
