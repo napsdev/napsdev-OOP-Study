@@ -9,11 +9,11 @@ class Main {
         user.printname();
 
         // Intance of java
-        User partner = new User();
-        partner.Name = "María Pérez";
-        partner.Document = "1105793458";
-        partner.Email = "maria@algo.com";
+        User seller = new User();
+        seller.Name = "María Pérez";
+        seller.Document = "1105793458";
+        seller.Email = "maria@algo.com";
 
-        partner.printname();
+        seller.printname();
     }
 }
