@@ -6,7 +6,7 @@ class Main {
         user.printname();
 
         // Intance of java
-        User seller = new User("María Pérez", "1105793458", "maria@algo.com");
+        User seller = new UserSeller("María Pérez", "1105793458", "maria@algo.com");
         seller.setId(2);
         seller.printname();
     }
